@@ -188,6 +188,7 @@
             this.dtPicNgaySinh.Name = "dtPicNgaySinh";
             this.dtPicNgaySinh.Size = new System.Drawing.Size(256, 22);
             this.dtPicNgaySinh.TabIndex = 13;
+            this.dtPicNgaySinh.Value = new System.DateTime(1996, 8, 1, 0, 0, 0, 0);
             // 
             // label8
             // 

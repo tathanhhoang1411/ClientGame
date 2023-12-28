@@ -19,6 +19,8 @@ namespace AppLuckyNumber_Client_
             InitializeComponent();
             txtPassWord.PasswordChar = '*';
             txtAccount.Focus();
+            dtPicNgaySinh.Format = DateTimePickerFormat.Custom;
+            dtPicNgaySinh.CustomFormat = "dd/MM/yyyy";
         }
 
         private async void btnDK_Click(object sender, EventArgs e)
@@ -49,7 +51,7 @@ namespace AppLuckyNumber_Client_
                 }
                 string accountDK= txtAccountDK.Text.Trim();
                 string name= txtHVT.Text.Trim();
-                var  birthday = dtPicNgaySinh.Value;
+                string  birthday = dtPicNgaySinh.Value.ToString("dd/MM/yyyy");
                 string passwordDK = txtPasswordDK.Text.Trim();
                 bool result=await CallAPIRegiterAccount(name, accountDK, passwordDK, birthday);
                 if (result)
@@ -80,11 +82,11 @@ namespace AppLuckyNumber_Client_
             return true;
         }
         //gửi yêu cầu tạo tài khoản
-        private async Task<bool> CallAPIRegiterAccount(string name,string account, string password,DateTime birthday)
+        private async Task<bool> CallAPIRegiterAccount(string name,string account, string password,string birthday)
         {
             try
             {
-                string birthdayNew = birthday.ToString("dd/MM/yyyy").Trim().Replace("/", "%2F");
+                string birthdayNew = birthday.Trim().Replace("/", "%2F");
                 xNet.HttpRequest http = new xNet.HttpRequest();
                 string result = http.Post("http://tahoang111-001-site1.btempurl.com/api/Accounts/NewAccount?name=" + name.Trim() + "&phone="+account.Trim() + "&pass="+password.Trim() + "&birthDay="+ birthdayNew.Trim()).ToString();
                 string resultIDWallet = http.Post("http://tahoang111-001-site1.btempurl.com/api/Walletes/NewWallet?phone=" + account.Trim()).ToString();
