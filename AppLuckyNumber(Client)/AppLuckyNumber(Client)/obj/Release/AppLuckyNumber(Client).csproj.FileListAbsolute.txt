@@ -25,3 +25,30 @@ D:\WORK\Project XoSoConGaTrong\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj
 D:\WORK\Project XoSoConGaTrong\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).csproj.CopyComplete
 D:\WORK\Project XoSoConGaTrong\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).exe
 D:\WORK\Project XoSoConGaTrong\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).pdb
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\AppLuckyNumber(Client).exe.config
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\AppLuckyNumber(Client).exe
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\AppLuckyNumber(Client).pdb
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Data.Desktop.v23.1.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Data.v23.1.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Drawing.v23.1.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Printing.v23.1.Core.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Utils.v23.1.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\xNet.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Pdf.v23.1.Core.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Pdf.v23.1.Drawing.dll
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Data.Desktop.v23.1.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Data.v23.1.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Drawing.v23.1.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Printing.v23.1.Core.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Utils.v23.1.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Pdf.v23.1.Core.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\bin\Release\DevExpress.Pdf.v23.1.Drawing.xml
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).csproj.AssemblyReference.cache
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber_Client_.Form1.resources
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber_Client_.FormMain.resources
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber_Client_.Properties.Resources.resources
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).csproj.GenerateResource.cache
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).csproj.CoreCompileInputs.cache
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).csproj.CopyComplete
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).exe
+D:\WORK\ClientGame\AppLuckyNumber(Client)\AppLuckyNumber(Client)\obj\Release\AppLuckyNumber(Client).pdb
