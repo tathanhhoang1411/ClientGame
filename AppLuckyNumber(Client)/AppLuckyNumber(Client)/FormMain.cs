@@ -1,4 +1,5 @@
 ﻿using DevExpress.Internal.WinApi.Windows.UI.Notifications;
+using DevExpress.Utils.About;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -167,6 +168,20 @@ namespace AppLuckyNumber_Client_
         {
             try
             {
+                //
+                List<string> info = _infoAccount.Split('\"').ToList();
+                xNet.HttpRequest http = new xNet.HttpRequest();
+                string resultCheckCoin = http.Get("http://tahoang111-001-site1.btempurl.com/api/Walletes/PhoneNumber?phoneNumber=" + info[5].ToString().Trim()).ToString();
+                if (resultCheckCoin.Contains(info[5].ToString().Trim()))
+                {
+                    var arr = resultCheckCoin.Split('\"');
+                    if (double.Parse(arr[11].ToString().Trim())<15000)
+                    {
+                        MessageBox.Show(this, "Không đủ Coin, vui lòng nạp thêm( chức năng đang update)!", "Cảnh báo", MessageBoxButtons.OK);
+                        return;
+                    }
+                }
+                //
                 string phoneNumber = lblAccount.Text.Trim();
                 string chooseLuckyNumber = txtLKNumber.Text.Trim();
                 if (chooseLuckyNumber.Length > 1|| chooseLuckyNumber.Length==0)//chỉ cho nhập 1 số
@@ -174,7 +189,6 @@ namespace AppLuckyNumber_Client_
                     MessageBox.Show(this, "Chỉ nhập số có 1 chữ số", "Thông báo", MessageBoxButtons.OK);
                     return;
                 }
-                xNet.HttpRequest http = new xNet.HttpRequest(); 
                 string result = http.Post("http://tahoang111-001-site1.btempurl.com/api/Check/ChooseNumber?chooseNumber=" + chooseLuckyNumber + "&phoneNumber=" + phoneNumber.Trim()).ToString();
                 if (result == "true")
                 {
