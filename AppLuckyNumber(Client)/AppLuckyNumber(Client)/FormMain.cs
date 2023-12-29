@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
@@ -315,6 +316,30 @@ namespace AppLuckyNumber_Client_
                 lblTime.Text = DateTime.Now.ToString("HH:mm:ss, dd-MM-yyyy"); // Định dạng ngày giờ đầy đủ
             }
             catch
+            {
+
+            }
+        }
+
+        private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                // Kiểm tra xem người dùng có đang tắt chương trình không
+                if (e.CloseReason == CloseReason.UserClosing)
+                {
+                    // Lấy danh sách tất cả các quá trình đang chạy
+                    Process[] processes = Process.GetProcesses();
+
+                    // Lặp qua tất cả các quá trình
+                    foreach (Process process in processes)
+                    {
+                        // Đóng tất cả các luồng của quá trình
+                        process.Kill();
+                    }
+                }
+            }
+            catch (Exception ex)
             {
 
             }
